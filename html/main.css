@@ -1,0 +1,72 @@
+
+
+/* @import url(halloween.css); */
+
+@media screen {
+  
+nav a:link { color: white; 
+    background-color: red}
+
+nav a:hover { color: red; 
+    background-color: white}
+
+a {text-decoration: none}
+
+h1{ font-family: 'Courier New', Courier, monospace;
+    font-size:  2em;
+}
+
+
+nav ul li { 
+    
+    list-style-type: none; 
+    display: inline-block;
+}
+
+nav ul li a {
+    border-radius:5px;
+    text-decoration:none;
+    width: 9em; 
+    height: 1.25em;
+    padding: 5px;
+}
+
+
+
+main {
+    padding: 5px 10px;
+}
+nav ul li { list-style: none;
+    }
+
+.centered {text-align: center;
+    height:145px;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#cfe7fa+0,6393c1+100;Grey+Blue+3D */
+background: #cfe7fa; /* Old browsers */
+background: -moz-linear-gradient(top,  #cfe7fa 0%, #6393c1 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #cfe7fa 0%,#6393c1 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #cfe7fa 0%,#6393c1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfe7fa', endColorstr='#6393c1',GradientType=0 ); /* IE6-9 */
+}
+
+article {border-bottom: 1px solid black;
+    padding: 5px 10px;}
+
+body {color: red; 
+    font-size: 100%;
+    background-color: bisque}
+
+h2 {color: green; 
+    font-style: italic;
+    font-size: 1.5em}
+
+#thrd {color:black}
+
+p{color: blue;
+    font-size: 18px}
+
+.two{color: black}
+}
+@media print{
+    header, footer {display: none}
+}
